@@ -9,7 +9,6 @@ const CustomLink = ({children, to, ...props}) => {
     })
     const classes = [styles.link]
     if (match) classes.push(styles.active)
-    console.log(classes)
     return (
             <Link to={to} className={classes.join(' ')} {...props}>
                 {children}
