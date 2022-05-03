@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea42831-5890-44fe-8180-1c54294b8442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28eDCd003h2UpC6f2NzWCwMtLpL" />
@@ -34,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +41,16 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\2022\jira\src\components\TodoList" />
+      <recent name="C:\web\2022\jira\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\2022\jira\src\ui" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -68,25 +77,99 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651568031871</updated>
-      <workItem from="1651568035450" duration="1059000" />
+      <workItem from="1651568035450" duration="24197000" />
+      <workItem from="1651597088743" duration="2088000" />
+      <workItem from="1651602994392" duration="1335000" />
     </task>
+    <task id="LOCAL-00001" summary="clear project">
+      <created>1651569169080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651569169080</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add header and footer">
+      <created>1651572658470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651572658470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add todo list">
+      <created>1651581818302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651581818302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add todo board">
+      <created>1651596253610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651596253610</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bug fix">
+      <created>1651598693654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651598693654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clear project" />
+    <MESSAGE value="add header and footer" />
+    <MESSAGE value="add todo list" />
+    <MESSAGE value="add todo board" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#ESLint" timestamp="1651568433079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1651568433079" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651568412018">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651594669353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1651568412018" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1651594669353" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1651598692344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1651598692344" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1651603010477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1651603010477" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1651603010476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1651603010476" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1651603010475">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1651603010475" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1651603010477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1651603010477" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1651604303688">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1651604303688" />
     <state x="551" y="272" key="save.project.as.template.dialog" timestamp="1651568379371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="272" key="save.project.as.template.dialog/0.0.1366.728@0.0.1366.728" timestamp="1651568379371" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1651594431534">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1651594431534" />
   </component>
 </project>
