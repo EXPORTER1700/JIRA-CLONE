@@ -1,5 +1,5 @@
-const defaultStore = {
-    todos: []
+const defaultState = {
+    todos: [],
 }
 
 const ADD_MANY_TODOS = 'ADD_MANY_TODOS'
@@ -16,7 +16,7 @@ const nextCompleted = (completed) => {
     }
 }
 
-export const todosReducer = (state = defaultStore, action) => {
+export const todosReducer = (state = defaultState, action) => {
     switch (action.type) {
         case (ADD_MANY_TODOS):
             return {...state, todos: [...state.todos, ...action.payload]}

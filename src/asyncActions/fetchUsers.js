@@ -2,11 +2,16 @@ import {addManyUsersAction} from "../store/users";
 
 const randomColor = (id) => {
     switch (id % 5) {
-        case (0): return 'red'
-        case (1): return 'green'
-        case (2): return 'blue'
-        case (3): return 'yellow'
-        case (4): return 'orange'
+        case (0):
+            return 'red'
+        case (1):
+            return 'green'
+        case (2):
+            return 'blue'
+        case (3):
+            return 'yellow'
+        case (4):
+            return 'orange'
     }
 }
 

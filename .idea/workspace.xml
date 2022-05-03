@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea42831-5890-44fe-8180-1c54294b8442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/asyncActions/fetchTodos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asyncActions/fetchUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTodos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/users.js" afterDir="false" />
+    <list default="true" id="6ea42831-5890-44fe-8180-1c54294b8442" name="Default Changelist" comment="add todo board">
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/BoardItem/BoardItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/BoardItem/BoardItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/BoardList/BoardList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/BoardList/BoardList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Loader/Loader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asyncActions/fetchTodos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/asyncActions/fetchTodos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asyncActions/fetchUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/asyncActions/fetchUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/todos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/CustomLink/CustomLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CustomLink/CustomLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651568031871</updated>
-      <workItem from="1651568035450" duration="13621000" />
+      <workItem from="1651568035450" duration="24037000" />
     </task>
     <task id="LOCAL-00001" summary="clear project">
       <created>1651569169080</created>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651572658470</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add todo list">
+      <created>1651581818302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651581818302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,28 +122,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear project" />
     <MESSAGE value="add header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header and footer" />
+    <MESSAGE value="add todo list" />
+    <MESSAGE value="add todo board" />
+    <option name="LAST_COMMIT_MESSAGE" value="add todo board" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#ESLint" timestamp="1651568433079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1651568433079" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651568412018">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651594669353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1651568412018" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1651572657213">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1651594669353" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1651596227675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1651572657213" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1651572671124">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1651596227675" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1651581826070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1651572671124" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1651581826070" />
     <state x="551" y="272" key="save.project.as.template.dialog" timestamp="1651568379371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="272" key="save.project.as.template.dialog/0.0.1366.728@0.0.1366.728" timestamp="1651568379371" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1651594431534">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1651594431534" />
   </component>
 </project>

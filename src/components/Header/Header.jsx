@@ -1,11 +1,12 @@
 import React from 'react';
 import CustomLink from "../../ui/CustomLink/CustomLink";
 import classes from './Header.module.css'
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
         <div className={classes.container}>
-            <p className={classes.logo}>JIRA</p>
+            <Link className={classes.logo} to='/'>JIRA</Link>
             <nav className={classes.nav}>
                 <CustomLink to="/">Ticket list</CustomLink>
                 <CustomLink to="board">Board</CustomLink>

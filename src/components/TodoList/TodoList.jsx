@@ -1,18 +1,21 @@
 import React, {useState} from 'react';
-import {useDispatch, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 import ListItem from "./ListItem/ListItem";
 import classes from './TodoList.module.css'
 import {useTodos} from "../../hooks/useTodos";
+import Loader from "../../ui/Loader/Loader";
 
 const TodoList = () => {
     const todos = useSelector(state => state.todos.todos)
     const [search, setSearch] = useState('')
     const [completed, setCompleted] = useState('All')
     const searchedAndSortedTodos = useTodos(todos, search, completed)
+    if(!todos.length) return <Loader/>
     return (
         <div className={classes.container}>
             <div className={classes.filter}>
-                <input className={classes.search} type="text" value={search} onChange={event => setSearch(event.target.value)}/>
+                <input className={classes.search} type="text" value={search}
+                       onChange={event => setSearch(event.target.value)}/>
                 <select className={classes.completed} onChange={event => setCompleted(event.target.value)}>
                     <option value='All'>All</option>
                     <option value='To do'>To do</option>
