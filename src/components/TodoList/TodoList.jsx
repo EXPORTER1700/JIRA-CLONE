@@ -7,10 +7,11 @@ import Loader from "../../ui/Loader/Loader";
 
 const TodoList = () => {
     const todos = useSelector(state => state.todos.todos)
+    const users = useSelector(state => state.users.users)
     const [search, setSearch] = useState('')
     const [completed, setCompleted] = useState('All')
     const searchedAndSortedTodos = useTodos(todos, search, completed)
-    if(!todos.length) return <Loader/>
+    if(!todos.length || !users.length) return <Loader/>
     return (
         <div className={classes.container}>
             <div className={classes.filter}>

@@ -6,8 +6,9 @@ import Loader from "../../ui/Loader/Loader";
 
 const TodoBoard = () => {
     const todos = useSelector(state => state.todos.todos)
+    const users = useSelector(state => state.users.users)
     const [num, setNum] = useState(5)
-    if(!todos.length) return <Loader/>
+    if (!todos.length || !users.length) return <Loader/>
     const toDoTodo = todos.filter(todo => todo.completed === 'To do')
     const inProgressTodo = todos.filter(todo => todo.completed === 'In progress')
     const doneTodo = todos.filter(todo => todo.completed === 'Done')
