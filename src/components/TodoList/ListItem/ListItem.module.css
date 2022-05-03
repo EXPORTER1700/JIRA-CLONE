@@ -10,6 +10,25 @@
 .container:hover{
     cursor: pointer;
 }
+@media screen and (max-width: 540px){
+    .container{
+        flex-direction: column;
+    }
+    .user{
+        margin-bottom: 5px;
+    }
+    .title{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 730px){
+    .title{
+        font-size: 10px;
+    }
+    .completed{
+        font-size: 10px;
+    }
+}
 .user{
     flex: 0 0 10%;
     display: flex;

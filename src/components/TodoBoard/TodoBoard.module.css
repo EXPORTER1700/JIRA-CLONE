@@ -6,6 +6,11 @@
     border: 1px solid rgba(123, 125, 124, 0.33);
     margin-bottom: 20px;
 }
+@media screen and (max-width: 717px) {
+    .cards{
+        flex-direction: column;
+    }
+}
 .cards {
     width: 100%;
     display: flex;

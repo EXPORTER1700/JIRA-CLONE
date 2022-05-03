@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea42831-5890-44fe-8180-1c54294b8442" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoBoard/TodoBoard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/ListItem/ListItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/CustomLink/customLink.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/CustomLink/customLink.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1651568031871</updated>
       <workItem from="1651568035450" duration="24197000" />
-      <workItem from="1651597088743" duration="1554000" />
+      <workItem from="1651597088743" duration="2088000" />
+      <workItem from="1651602994392" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="clear project">
       <created>1651569169080</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651596253610</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bug fix">
+      <created>1651598693654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651598693654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +127,8 @@
     <MESSAGE value="add header and footer" />
     <MESSAGE value="add todo list" />
     <MESSAGE value="add todo board" />
-    <option name="LAST_COMMIT_MESSAGE" value="add todo board" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#ESLint" timestamp="1651568433079">
@@ -131,30 +139,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1651594669353" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1651596252130">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1651598692344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1651596252130" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1651597483945">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1651598692344" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1651603010477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1651597483945" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1651597483945">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1651603010477" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1651603010476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1651597483945" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1651597483945">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1651603010476" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1651603010475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1651597483945" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1651597483945">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1651603010475" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1651603010477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1651597483945" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1651596260666">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1651603010477" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1651604303688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1651596260666" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1651604303688" />
     <state x="551" y="272" key="save.project.as.template.dialog" timestamp="1651568379371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
